@@ -82,3 +82,32 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
+
+/***********Header*********/
+.header-wraper {
+  background-color: #484a50;
+  position: relative;
+  background-image: url(./components/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 90vh;
+}
+
+.header-wraper h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.typed-text {
+  color: var(--primary-orange);
+  font-size: 4rem;
+}
