@@ -105,9 +105,21 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
 
 .typed-text {
   color: var(--primary-orange);
-  font-size: 4rem;
+  font-size: 2rem;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 2;
 }
